@@ -7,6 +7,7 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
+  
   --first__color:#27ae60
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -35,7 +36,7 @@ body{
   color: var(--second-color);
   margin-top:0px;
 }
-a {
+a{
   text-decoration: none;
 }
 
@@ -47,7 +48,9 @@ img {
 
 
 .logo-nav{
-  color: var(--second-color);
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 20px;
   margin-left: 2rem;
 }
 
@@ -207,6 +210,7 @@ img {
   border-radius: .5rem;
   transition: .3s;
   text-align: center;
+
 }
 
 /*
@@ -219,14 +223,61 @@ Resume
 
 /* Contact CSS */
 
-.contact-form{ margin-top:15px;}
-.contact-form .textarea{ min-height:220px; resize:none;}
-.form-control{ box-shadow:none; border-color:#eee; height:49px;}
-.form-control:focus{ box-shadow:none; border-color:#20247b;}
-.form-control-feedback{ line-height:50px;}
-.main-btn{ background:#20247b; border-color:#20247b; color:#fff;}
-.main-btn:hover{ background:#20247b;color:#fff;}
-.form-control-feedback {
-line-height: 50px;
-top: 0px;
+/* ===== CONTACT =====*/
+.contact{
+  margin-top: 50px;
+}
+.button {
+  display: inline-block;
+  background-color: #27ae60;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: 50px;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.contact-container{
+  margin:auto;
+  text-align: center;
+}
+
+.contact__input {
+  width: 500px;
+  font-size:10px;
+  font-weight: 10px;
+  padding: 1rem;
+  border-radius: .5rem;
+ border: 1px solid #333;
+  outline: none;
+  margin-bottom: 4px;
+}
+
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+
+  
+.footer {
+  background-color: #b8bdbade;
+    color: #333;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+.footer__icon {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 2px;
+}
+
+.footer__copy {
+  font-size:1rem;
 }

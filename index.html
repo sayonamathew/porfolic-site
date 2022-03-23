@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-       
+  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 <body>
@@ -68,20 +68,10 @@
        </div>-->
        <div class="col-md-6  home__data">
          <h1 class="text-center">Hi,</h1><br>
-         <h1 class="text-center">I'm <span>Sayona</span></h1>
+         <h1 class="text-center">I'm <span style="color: #27ae60;">Sayona</span></h1>
          <p class="text-center">Front end Developer</p>
         </div>
-         <div class="share align-items-center ">
-          <!-- <a href="#" class="fab fa-facebook-f"></a> -->
-          <!-- <a href="#" class="fab fa-twitter"></a> -->
-          <a href="https://www.instagram.com/sayona297/" class="fab fa-instagram" target="blank"></a>
-          <a href="https://www.linkedin.com/in/6488b8233/" class="fab fa-linkedin" target="blank"></a>
-          <a href="https://github.com/sayonamathew" class="fab fa-github" target="blank"></a>
-      
-      
-
         
-       </div>
 
      </div>
    </div>
@@ -178,7 +168,7 @@
    <!--Skill End-->
 
    <!--===== RESUME =====-->
-   <section class="resume" id="resume">
+   <section class="resume gray-bg" id="resume">
      <div class="container">
        <div class="row">
          <div class="col-12 col-md-12">
@@ -188,7 +178,7 @@
             <br>
         </div>
         <h2 class="section-title">Resume</h2>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mb-5">
             <a class="button1" href="files/Sayona Mathew_Resume2021.docx" target="_blank" >Download Resume</a>
         </div>
 
@@ -198,19 +188,50 @@
     
 </section>
 
-  
+<!--------------CONTACT--------------->
 
-  
+<section class="contact" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="contact-container  bd-grid">
+          <form name="contact" method="POST" action="https://formspree.io/f/xoqrvbpv">
+              <p>
+                  <label >Your Name: <input  class="contact__input" type="text" name="name" /></label>   
+              </p>
+              <p>
+                  <label >Your Email: <input  class="contact__input" type="email" name="email" /></label>
+              </p>
+              <p>
+                  <label>Message: <textarea  class="contact__input" name="message"></textarea></label>
+              </p>
+              <p>
+                  <button class="button1" type="submit">Send</button>
+              </p>
+          </form>
+      </div>
+
+      </div>
+    </div>
+  </div>
+ 
+</section>
 
 
 
-<footer class="headerColor mt-3" >
+<footer class="mt-3 footer" >
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-       <a href=""><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i></a>
-       <p class="text-white">Copyright</p> 
+        <a href="https://www.instagram.com/sayona253/" class="fab fa-instagram footer__icon" target="blank"></a>
+        <a href="https://www.linkedin.com/in/sayona-mathew-25297b228/" class="fab fa-linkedin footer__icon" target="blank"></a>
+        <a href="https://github.com/sayonamathew" class="fab fa-github footer__icon" target="blank"></a>
+      
+        <p class="footer__copy">&#169;<a href="https://www.linkedin.com/in/sayona-mathew-25297b228" target="_blank"  >Sayona Mathew</a>. All rights reserved</p>
+       
       </div>
+    
     </div>
   </div>
 </footer>
